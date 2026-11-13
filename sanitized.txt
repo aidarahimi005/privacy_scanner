@@ -1,0 +1,27 @@
+User [EMAIL] reported an error.
+His phone number is [PHONE].
+The request came from [IP].
+
+Contact: [EMAIL]
+Phone: [PHONE]
+IP: [IP]
+
+Invalid cases:
+abc09123456789
+999.168.1.15
+ali..reza@example.com
+192.168.1.15.30
+0912-345-6789
++989123456789
+
+Trailing dot:
+Contact [EMAIL].
+IP address is [IP].
+
+Persian text:
+کاربر [EMAIL] خطا داد.
+شماره تماس: [PHONE]
+آی‌پی: [IP]
+
+Duplicate:
+[EMAIL] and [EMAIL] again.

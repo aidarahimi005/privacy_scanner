@@ -1,0 +1,27 @@
+User ali@example.com reported an error.
+His phone number is 09123456789.
+The request came from 192.168.1.15.
+
+Contact: sara.rezaei@test.co.uk
+Phone: 09121234567
+IP: 10.0.0.1
+
+Invalid cases:
+abc09123456789
+999.168.1.15
+ali..reza@example.com
+192.168.1.15.30
+0912-345-6789
++989123456789
+
+Trailing dot:
+Contact ali@example.com.
+IP address is 192.168.1.15.
+
+Persian text:
+کاربر ali@example.com خطا داد.
+شماره تماس: 09123456789
+آی‌پی: 192.168.1.15
+
+Duplicate:
+ali@example.com and ali@example.com again.
